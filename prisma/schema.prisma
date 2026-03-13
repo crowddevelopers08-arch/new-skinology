@@ -1,0 +1,33 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Lead {
+  id           String   @id @default(cuid())
+  name         String
+  phone        String
+  email        String?
+  procedure    String?  // This field stores the skin concern
+  message      String?  // Additional message (currently unused but kept for compatibility)
+  city         String?
+  age          String?
+  preferredDate String? // New field for preferred date
+  consent      Boolean  @default(false)
+  source       String?
+  formName     String?  // 'skintreatment' or 'hairtreatment'
+  status       String   @default("NEW") // NEW, CONTACTED, SCHEDULED, CONVERTED, LOST, ERROR
+  telecrmSynced Boolean @default(false)
+  telecrmId    String?
+  syncedAt     DateTime?
+  error        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("leads")
+}
