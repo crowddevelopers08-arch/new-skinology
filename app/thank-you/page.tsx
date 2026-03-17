@@ -36,6 +36,13 @@ export default function ThankYouPage() {
         'value': 1.0,
         'currency': 'INR'
       });
+
+      // Method 5: Submit lead form 17-03-2026 conversion page
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-11413326538/tZPZCLKfkoocEMqVpsIq',
+        'value': 1.0,
+        'currency': 'INR'
+      });
     }
   }, []);
 
@@ -68,7 +75,15 @@ export default function ThankYouPage() {
         'currency': 'INR',
         'event_callback': callback
       });
-      
+
+      // Submit lead form 17-03-2026 conversion page
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-11413326538/tZPZCLKfkoocEMqVpsIq',
+        'value': 1.0,
+        'currency': 'INR',
+        'event_callback': callback
+      });
+
       if (!url) return false;
     }
     return false;
@@ -108,7 +123,15 @@ export default function ThankYouPage() {
                 'currency': 'INR',
                 'event_callback': callback
               });
-              
+
+              // Submit lead form 17-03-2026 conversion page
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11413326538/tZPZCLKfkoocEMqVpsIq',
+                'value': 1.0,
+                'currency': 'INR',
+                'event_callback': callback
+              });
+
               return false;
             }
             
@@ -131,11 +154,18 @@ export default function ThankYouPage() {
                 'value': 1.0,
                 'currency': 'INR'
               });
+
+              // Event snippet for Submit lead form 17-03-2026 conversion page
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11413326538/tZPZCLKfkoocEMqVpsIq',
+                'value': 1.0,
+                'currency': 'INR'
+              });
             }
           `,
         }}
       />
-      
+
       {/* Alternative conversion tracking script */}
       <Script
         id="conversion-direct"
@@ -161,11 +191,18 @@ export default function ThankYouPage() {
                 'value': 1.0,
                 'currency': 'INR'
               });
+
+              // Event snippet for Submit lead form 17-03-2026 conversion page
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11413326538/tZPZCLKfkoocEMqVpsIq',
+                'value': 1.0,
+                'currency': 'INR'
+              });
             }
           `,
         }}
       />
-      
+
       {/* Direct inline script for the specific conversion tag */}
       <Script
         id="conversion-value"
@@ -184,6 +221,23 @@ export default function ThankYouPage() {
         }}
       />
       
+      {/* Event snippet for Submit lead form 17-03-2026 conversion page */}
+      <Script
+        id="conversion-submit-lead-17032026"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            if (typeof gtag !== 'undefined') {
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11413326538/tZPZCLKfkoocEMqVpsIq',
+                'value': 1.0,
+                'currency': 'INR'
+              });
+            }
+          `,
+        }}
+      />
+
       {/* Additional script for the new conversion tag */}
       <Script
         id="conversion-thankyou-page"
