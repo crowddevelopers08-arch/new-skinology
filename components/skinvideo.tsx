@@ -18,27 +18,27 @@ const videos = [
   { 
     id: 3, 
     title: "Clinic Tour & Facilities", 
-    videoUrl: "https://ik.imagekit.io/xivdiehvf/public/three.mp4"
+    videoUrl: "/three.mp4"
   },
   { 
     id: 4, 
     title: "Before & After Transformation", 
-    videoUrl: "https://ik.imagekit.io/xivdiehvf/public/four.mp4"
+    videoUrl: "/four.mp4"
   },
   { 
     id: 5, 
     title: "Doctor Consultation Process", 
-    videoUrl: "https://ik.imagekit.io/xivdiehvf/public/five.mp4"
+    videoUrl: "/five.mp4"
   },
   { 
     id: 6, 
     title: "Advanced Technology Showcase", 
-    videoUrl: "https://ik.imagekit.io/xivdiehvf/public/six.mp4"
+    videoUrl: "/six.mp4"
   },
   { 
     id: 7, 
     title: "Treatment Process Explained", 
-    videoUrl: "https://ik.imagekit.io/xivdiehvf/public/seven.mp4"
+    videoUrl: "/seven.mp4"
   },
 ];
 

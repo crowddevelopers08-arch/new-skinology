@@ -111,7 +111,7 @@ const HeroSection = () => {
             <div className="relative flex items-center justify-center">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl w-full max-w-2xl">
                 <img
-                  src="https://ik.imagekit.io/xivdiehvf/public/hero.jpg"
+                  src="/hero.jpg"
                   alt="Skinology Clinic - Modern Hair Treatment Facility in Bangalore"
                   className="w-full h-[400px] sm:h-[500px] object-cover"
                 />

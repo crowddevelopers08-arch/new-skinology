@@ -31,7 +31,7 @@ const SkinThankHeader = () => {
           <a href="#hero" className="flex items-center">
             <div className="relative w-40 h-12 md:w-48 md:h-14">
               <Image
-                src="https://ik.imagekit.io/xivdiehvf/public/Skinologylogo.jpg"
+                src="/Skinologylogo.jpg"
                 alt="Skinology Logo"
                 fill
                 className="object-contain object-left"

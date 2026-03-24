@@ -35,7 +35,7 @@ const SkinDoctorSection = () => {
                 {/* Main Image */}
                 <div className="rounded-3xl overflow-hidden shadow-2xl">
                   <img
-                    src="https://ik.imagekit.io/xivdiehvf/public/skinologydoc.jpg"
+                    src="/skinologydoc.jpg"
                     alt="Dr. Sushma - Dermatologist and Hair Transplant Surgeon"
                     className="w-full h-[500px] sm:h-[550px] md:h-[650px] object-cover"
                   />

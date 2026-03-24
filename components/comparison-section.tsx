@@ -15,7 +15,7 @@ export default function HairProblemsSection() {
     {
       id: 1,
       title: "Male Pattern Baldness",
-      image: "https://ik.imagekit.io/xivdiehvf/public/male.jpg",
+      image: "/male.jpg",
       description: "Progressive hair thinning and bald spots are caused by genetics and hormonal changes.",
       cta: "Treat Male Pattern Baldness",
       serviceValue: "male-pattern-baldness"
@@ -23,7 +23,7 @@ export default function HairProblemsSection() {
     {
       id: 2,
       title: "Receding Hairline",
-      image: "https://ik.imagekit.io/xivdiehvf/public/receding.jpg",
+      image: "/receding.jpg",
       description: "Gradual backward movement of the hairline, commonly starting at the temples.",
       cta: "Restore Your Hairline",
       serviceValue: "receding-hairline"
@@ -31,7 +31,7 @@ export default function HairProblemsSection() {
     {
       id: 3,
       title: "Patchy Beard / Patchy Scalp",
-      image: "https://ik.imagekit.io/xivdiehvf/public/beared.jpg",
+      image: "/beared.jpg",
       description: "Uneven or missing hair patches due to alopecia areata or weak follicle activity.",
       cta: "Fix Patchy Hair Growth",
       serviceValue: "patchy-hair"
@@ -39,7 +39,7 @@ export default function HairProblemsSection() {
     {
       id: 4,
       title: "Thinning Hair",
-      image: "https://ik.imagekit.io/xivdiehvf/public/hairthinning.jpg",
+      image: "/hairthinning.jpg",
       description: "Reduced hair density caused by stress, hormones, nutrition deficiencies, or ageing.",
       cta: "Treat Thinning Hair",
       serviceValue: "thinning-hair"
@@ -47,7 +47,7 @@ export default function HairProblemsSection() {
     {
       id: 5,
       title: "Severe Hair Loss",
-      image: "https://ik.imagekit.io/xivdiehvf/public/serve.jpg",
+      image: "/serve.jpg",
       description: "Rapid or chronic shedding, where clumps of hair fall out daily.",
       cta: "Stop Severe Hair Loss",
       serviceValue: "severe-hair-loss"
@@ -55,7 +55,7 @@ export default function HairProblemsSection() {
     {
       id: 6,
       title: "Dandruff / Scalp Issues",
-      image: "https://ik.imagekit.io/xivdiehvf/public/dant.jpg",
+      image: "/dant.jpg",
       description: "Flaking, itching, and scalp inflammation that disrupts healthy hair growth.",
       cta: "Treat Scalp Issues",
       serviceValue: "scalp-treatment"

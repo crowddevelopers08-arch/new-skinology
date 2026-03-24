@@ -8,31 +8,31 @@ import SkinPopupForm from "./skinpopup";
 const transformations = [
   { 
     id: 1, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im1.jpg",
+    image: "/im1.jpg",
   },
   { 
     id: 2, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im2.jpg",
+    image: "/im2.jpg",
   },
   { 
     id: 3, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im3.jpg",
+    image: "/im3.jpg",
   },
   { 
     id: 4, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im4.jpg",
+    image: "/im4.jpg",
   },
   { 
     id: 5, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im5.jpg",
+    image: "/im5.jpg",
   },
   { 
     id: 6, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im6.jpg",
+    image: "/im6.jpg",
   },
   { 
     id: 7, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im7.jpg",
+    image: "/im7.jpg",
   },
   // { 
   //   id: 8, 
@@ -48,7 +48,7 @@ const transformations = [
   // },
   { 
     id: 11, 
-    image: "https://ik.imagekit.io/xivdiehvf/public/im11.jpg",
+    image: "/im11.jpg",
   },
 ];
 

@@ -112,7 +112,7 @@ const Footer = () => {
                 {/* Logo Image */}
                 <div className="relative w-48 h-12">
                   <Image
-                    src="https://ik.imagekit.io/xivdiehvf/public/Skinologylogo.jpg" // Update with your actual logo path
+                    src="/Skinologylogo.jpg" // Update with your actual logo path
                     alt="Skinology Clinic Logo"
                     fill
                     className="object-contain object-left"
